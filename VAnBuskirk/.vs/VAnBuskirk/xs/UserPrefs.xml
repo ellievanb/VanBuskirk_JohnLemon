@@ -1,9 +1,10 @@
 ﻿<Properties StartupConfiguration="{6E079FBF-BDFA-E449-C07B-48634EBCC571}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GameEnding.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/WaypointPatrol.cs">
     <Files>
       <File FileName="Assets/Scripts/PlayerMovement.cs" Line="32" Column="30" />
-      <File FileName="Assets/Scripts/GameEnding.cs" Line="19" Column="31" />
-      <File FileName="Assets/Scripts/Observer.cs" Line="44" Column="1" />
+      <File FileName="Assets/Scripts/GameEnding.cs" Line="59" Column="10" />
+      <File FileName="Assets/Scripts/Observer.cs" Line="39" Column="47" />
+      <File FileName="Assets/Scripts/WaypointPatrol.cs" Line="7" Column="5" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -11,7 +12,7 @@
           <Node name="VAnBuskirk" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="GameEnding.cs" selected="True" />
+                <Node name="WaypointPatrol.cs" selected="True" />
               </Node>
             </Node>
           </Node>
