@@ -2,7 +2,8 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GameEnding.cs">
     <Files>
       <File FileName="Assets/Scripts/PlayerMovement.cs" Line="32" Column="30" />
-      <File FileName="Assets/Scripts/GameEnding.cs" Line="42" Column="2" />
+      <File FileName="Assets/Scripts/GameEnding.cs" Line="19" Column="31" />
+      <File FileName="Assets/Scripts/Observer.cs" Line="44" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -20,7 +21,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="de894a31-ec0c-40e3-b6e0-0e0417059e0f" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="dbb1f535-58ee-4ec8-ae06-35bac414bca5" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
