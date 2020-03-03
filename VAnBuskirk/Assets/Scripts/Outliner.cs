@@ -39,8 +39,4 @@ public class Outliner : MonoBehaviour
         }
         outlineObj.GetComponent<MeshRenderer>().materials = materials;
     }
-    public void OnMouseDown()
-    {
-        Destroy(gameObject);
-    }
 }
