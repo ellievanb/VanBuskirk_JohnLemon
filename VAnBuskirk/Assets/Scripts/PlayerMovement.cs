@@ -20,6 +20,14 @@ public class PlayerMovement : MonoBehaviour
         m_AudioSource = GetComponent<AudioSource>();
     }
 
+    void Update()
+    {
+        if (Input.GetKey(KeyCode.LeftShift))
+            m_Animator.speed = 3f;
+        else
+            m_Animator.speed = 1f;
+
+    }
     void FixedUpdate()
     {
         float horizontal = Input.GetAxis("Horizontal");

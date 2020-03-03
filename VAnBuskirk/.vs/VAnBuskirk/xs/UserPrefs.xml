@@ -2,9 +2,9 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayerMovement.cs">
     <Files>
       <File FileName="Assets/Scripts/PlayerMovement.cs" Line="44" Column="38" />
-      <File FileName="Assets/Scripts/GameEnding.cs" Line="70" Column="2" />
+      <File FileName="Assets/Scripts/GameEnding.cs" />
       <File FileName="Assets/Scripts/Observer.cs" />
-      <File FileName="Assets/Scripts/WaypointPatrol.cs" Line="7" Column="2" />
+      <File FileName="Assets/Scripts/WaypointPatrol.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -22,7 +22,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="79a41b7d-4ae0-4dc0-9d0a-a02c19f10f26" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="0fddf044-b5cb-418a-bac6-d4966a8f4e20" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
