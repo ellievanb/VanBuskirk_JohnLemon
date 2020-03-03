@@ -73,6 +73,8 @@
     <Compile Include="Assets\Scripts\WaypointPatrol.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <None Include="Assets\Shaders\SpookyStandardShader.shader" />
+    <None Include="Assets\GameReadyAssets\FurniturePack1\Shader\SurfaceMetallicSmoothnessAmbient.shader" />
+    <None Include="Assets\Models\Key\readME keys.txt" />
     <None Include="Assets\Shaders\PlaneFog.shader" />
     <None Include="Assets\Shaders\ToonShader.shader" />
     <Reference Include="Unity.Timeline.Editor">
