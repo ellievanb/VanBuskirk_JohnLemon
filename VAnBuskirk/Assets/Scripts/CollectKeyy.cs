@@ -4,8 +4,11 @@ using UnityEngine;
 
 public class CollectKeyy : MonoBehaviour
 {
-    void OnMouseDown()
+    public MouseClick DoorScript;
+
+    public void OnMouseDown()
     {
+        DoorScript.HasKey = true;
         Destroy(gameObject);
     }
 }
