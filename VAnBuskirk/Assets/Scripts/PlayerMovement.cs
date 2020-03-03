@@ -14,7 +14,7 @@ public class PlayerMovement : MonoBehaviour
 
     public GameObject projectilePrefab;
     public Transform ShotSpawn;
-    public float ShotSpeed = 10f;
+    public float ShotSpeed = 20f;
 
     // Start is called before the first frame update
     void Start()
@@ -30,11 +30,12 @@ public class PlayerMovement : MonoBehaviour
             m_Animator.speed = 3f;
         else
             m_Animator.speed = 1f;
-        if(Input.GetKeyDown(KeyCode.Space))
-            GameObject.Instantiate(projectilePrefab, ShotSpawn.transform.position, ShotSpawn.transform.rotation);
-        Rigidbody projectileRB = projectilePrefab.GetComponent<Rigidbody>();
-        projectileRB.velocity = transform.forward * ShotSpeed;
-
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            GameObject projectile = Instantiate(projectilePrefab, ShotSpawn.transform.position, ShotSpawn.transform.rotation);
+            Rigidbody projectileRB = projectile.GetComponent<Rigidbody>();
+            projectileRB.velocity = transform.forward * ShotSpeed;
+        }
     }
     void FixedUpdate()
     {
