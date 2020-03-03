@@ -1,12 +1,11 @@
 /target:library
 /nowarn:0169
-/out:"Temp/Assembly-CSharp-Editor.dll"
+/out:"Temp/Assembly-CSharp.dll"
 /debug:portable
 /optimize-
 /nostdlib+
 /preferreduilang:en-US
 /langversion:latest
-/reference:"Library/ScriptAssemblies/Assembly-CSharp.dll"
 /reference:"/Applications/Unity/Hub/Editor/2019.2.0f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll"
 /reference:"/Applications/Unity/Hub/Editor/2019.2.0f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll"
 /reference:"/Applications/Unity/Hub/Editor/2019.2.0f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ARModule.dll"
@@ -68,8 +67,6 @@
 /reference:"/Applications/Unity/Hub/Editor/2019.2.0f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.WindModule.dll"
 /reference:"/Applications/Unity/Hub/Editor/2019.2.0f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.XRModule.dll"
 /reference:"/Applications/Unity/Hub/Editor/2019.2.0f1/Unity.app/Contents/Managed/UnityEditor.dll"
-/reference:"Library/ScriptAssemblies/UnityEditor.TestRunner.dll"
-/reference:"Library/ScriptAssemblies/UnityEngine.TestRunner.dll"
 /reference:"Library/ScriptAssemblies/Unity.Timeline.Editor.dll"
 /reference:"Library/ScriptAssemblies/Cinemachine.dll"
 /reference:"Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Editor.dll"
@@ -91,18 +88,11 @@
 /reference:"Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll"
 /reference:"Library/ScriptAssemblies/UnityEditor.UI.dll"
 /reference:"Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Runtime.dll"
-/reference:"/Applications/Unity/Hub/Editor/2019.2.0f1/Unity.app/Contents/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll"
-/reference:"/Applications/Unity/Hub/Editor/2019.2.0f1/Unity.app/Contents/Managed/UnityEditor.Graphs.dll"
-/reference:"/Applications/Unity/Hub/Editor/2019.2.0f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll"
-/reference:"/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll"
 /reference:"/Users/ellievanbuskirk/Desktop/VanBuskirk_JohnLemon/VAnBuskirk/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.Editor.dll"
 /reference:"/Users/ellievanbuskirk/Desktop/VanBuskirk_JohnLemon/VAnBuskirk/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.dll"
-/reference:"/Users/ellievanbuskirk/Desktop/VanBuskirk_JohnLemon/VAnBuskirk/Library/PackageCache/com.unity.ads@2.3.1/Editor/UnityEditor.Advertisements.dll"
 /reference:"/Users/ellievanbuskirk/Desktop/VanBuskirk_JohnLemon/VAnBuskirk/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll"
 /reference:"/Users/ellievanbuskirk/Desktop/VanBuskirk_JohnLemon/VAnBuskirk/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll"
 /reference:"/Users/ellievanbuskirk/Desktop/VanBuskirk_JohnLemon/VAnBuskirk/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll"
-/reference:"/Users/ellievanbuskirk/Desktop/VanBuskirk_JohnLemon/VAnBuskirk/Library/PackageCache/com.unity.purchasing@2.0.6/Editor/UnityEditor.Purchasing.dll"
-/reference:"/Users/ellievanbuskirk/Desktop/VanBuskirk_JohnLemon/VAnBuskirk/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll"
 /reference:"/Applications/Unity/Hub/Editor/2019.2.0f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll"
 /reference:"/Applications/Unity/Hub/Editor/2019.2.0f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/System.dll"
 /reference:"/Applications/Unity/Hub/Editor/2019.2.0f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/System.Core.dll"
@@ -295,7 +285,7 @@
 /define:ENABLE_SPATIALTRACKING
 /define:ENABLE_WEBSOCKET_HOST
 /define:ENABLE_MONO
-/define:NET_4_6
+/define:NET_STANDARD_2_0
 /define:ENABLE_PROFILER
 /define:DEBUG
 /define:TRACE
@@ -317,4 +307,12 @@
 /define:UNITY_POST_PROCESSING_STACK_V2
 /define:CSHARP_7_OR_LATER
 /define:CSHARP_7_3_OR_NEWER
-"Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs"
+"Assets/Scripts/CollectKeyy.cs"
+"Assets/Scripts/GameEnding.cs"
+"Assets/Scripts/LightFlicker.cs"
+"Assets/Scripts/MouseClick.cs"
+"Assets/Scripts/Observer.cs"
+"Assets/Scripts/Outliner.cs"
+"Assets/Scripts/PlayerMovement.cs"
+"Assets/Scripts/WaypointPatrol.cs"
+"Assets/TutorialInfo/Scripts/Readme.cs"
