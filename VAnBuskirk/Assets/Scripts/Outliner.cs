@@ -38,7 +38,9 @@ public class Outliner : MonoBehaviour
             materials[i].SetColor("_OutlineColor", outlineColor);
         }
         outlineObj.GetComponent<MeshRenderer>().materials = materials;
-
     }
-
+    public void OnMouseDown()
+    {
+        Destroy(gameObject);
+    }
 }

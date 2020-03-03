@@ -32,8 +32,8 @@ public class PlayerMovement : MonoBehaviour
             m_Animator.speed = 1f;
         if(Input.GetKeyDown(KeyCode.Space))
             GameObject.Instantiate(projectilePrefab, ShotSpawn.transform.position, ShotSpawn.transform.rotation);
-        // Rigidbody projectileRB = projectile.GetComponent<Rigidbody>();
-        // projectileRB.velocity = Vector3.transform.forward * ShotSpeed;
+        Rigidbody projectileRB = projectile.GetComponent<Rigidbody>();
+        projectileRB.velocity = transform.forward * ShotSpeed;
 
     }
     void FixedUpdate()
