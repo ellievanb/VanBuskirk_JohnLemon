@@ -150,9 +150,9 @@ Transform:
   m_LocalPosition: {x: -2.9750009, y: 0, z: -1.8}
   m_LocalScale: {x: 1.5, y: 1.25, z: 1.5}
   m_Children:
-  - {fileID: 2085564647}
   - {fileID: 715342787}
   - {fileID: 191821038}
+  - {fileID: 2085564647}
   m_Father: {fileID: 1531557597}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -349,6 +349,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turnSpeed: 20
+  projectilePrefab: {fileID: 0}
+  ShotSpawn: {fileID: 0}
+  ShotSpeed: 10
 --- !u!4 &20602503 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 803688015477980975, guid: 8149db2c390c7c341b68d304002941c1,
@@ -833,7 +836,7 @@ GameObject:
   - component: {fileID: 191821040}
   - component: {fileID: 191821039}
   m_Layer: 0
-  m_Name: Donuts (2)
+  m_Name: Donut (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -851,7 +854,7 @@ Transform:
   m_LocalScale: {x: 0.39999998, y: 0.050810304, z: 0.30487007}
   m_Children: []
   m_Father: {fileID: 13735077}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: -40, y: 0, z: 0}
 --- !u!136 &191821039
 CapsuleCollider:
@@ -2060,7 +2063,7 @@ GameObject:
   - component: {fileID: 715342789}
   - component: {fileID: 715342788}
   m_Layer: 0
-  m_Name: Donuts (1)
+  m_Name: Donut (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2078,7 +2081,7 @@ Transform:
   m_LocalScale: {x: 0.39999998, y: 0.050400604, z: 0.3024233}
   m_Children: []
   m_Father: {fileID: 13735077}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -40, y: 0, z: 0}
 --- !u!136 &715342788
 CapsuleCollider:
@@ -2279,6 +2282,36 @@ Transform:
   m_Children: []
   m_Father: {fileID: 780563634}
   m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &870536475
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 870536476}
+  m_Layer: 0
+  m_Name: ShotSpawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &870536476
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 870536475}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.75, z: 0.55}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 20602503}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &880087175
 GameObject:
@@ -4740,7 +4773,7 @@ Transform:
   m_LocalScale: {x: 0.4, y: 0.05, z: 0.3}
   m_Children: []
   m_Father: {fileID: 13735077}
-  m_RootOrder: 0
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: -40, y: 0, z: 0}
 --- !u!136 &2085564648
 CapsuleCollider:
