@@ -93,7 +93,6 @@ GameObject:
   - component: {fileID: 2533182759896796064}
   - component: {fileID: 2533182759889544256}
   - component: {fileID: 5441373692134324664}
-  - component: {fileID: 8791550748656883182}
   m_Layer: 0
   m_Name: Gargoyle
   m_TagString: Untagged
@@ -150,28 +149,6 @@ CapsuleCollider:
   m_Height: 1.8
   m_Direction: 1
   m_Center: {x: 0, y: 0.9, z: 0}
---- !u!195 &8791550748656883182
-NavMeshAgent:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2533182759896962944}
-  m_Enabled: 1
-  m_AgentTypeID: 0
-  m_Radius: 0.25
-  m_Speed: 1
-  m_Acceleration: 8
-  avoidancePriority: 50
-  m_AngularSpeed: 120
-  m_StoppingDistance: 0.2
-  m_AutoTraverseOffMeshLink: 1
-  m_AutoBraking: 1
-  m_AutoRepath: 1
-  m_Height: 2
-  m_BaseOffset: 0
-  m_WalkableMask: 4294967295
-  m_ObstacleAvoidanceType: 4
 --- !u!1001 &8706581517481228334
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -179,6 +156,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2533182759896796064}
     m_Modifications:
+    - target: {fileID: 5244562764500131650, guid: 44b5b89bcee43410a916641ebb90618e,
+        type: 3}
+      propertyPath: m_Name
+      value: PointOfView
+      objectReference: {fileID: 0}
     - target: {fileID: 836705627315376937, guid: 44b5b89bcee43410a916641ebb90618e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -233,11 +215,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5244562764500131650, guid: 44b5b89bcee43410a916641ebb90618e,
-        type: 3}
-      propertyPath: m_Name
-      value: PointOfView
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 44b5b89bcee43410a916641ebb90618e, type: 3}
