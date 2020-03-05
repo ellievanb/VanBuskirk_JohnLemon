@@ -5,8 +5,9 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     public float turnSpeed = 20f;
+    public float moveSpeed = 1f;
 
-    Animator m_Animator;
+    public Animator m_Animator;
     Rigidbody m_Rigidbody;
     AudioSource m_AudioSource;
     Vector3 m_Movement;
@@ -19,7 +20,6 @@ public class PlayerMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        m_Animator = GetComponent<Animator>();
         m_Rigidbody = GetComponent<Rigidbody>();
         m_AudioSource = GetComponent<AudioSource>();
     }
@@ -27,9 +27,15 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         if (Input.GetKey(KeyCode.LeftShift))
+        {
             m_Animator.speed = 3f;
+            moveSpeed = 4f;
+        }
         else
+        {
             m_Animator.speed = 1f;
+            moveSpeed = 2f;
+        }
         if (Input.GetKeyDown(KeyCode.Space))
         {
             GameObject projectile = Instantiate(projectilePrefab, ShotSpawn.transform.position, ShotSpawn.transform.rotation);
@@ -64,11 +70,9 @@ public class PlayerMovement : MonoBehaviour
 
         Vector3 desiredForward = Vector3.RotateTowards(transform.forward, m_Movement, turnSpeed * Time.deltaTime, 0f);
         m_Rotation = Quaternion.LookRotation(desiredForward);
-    }
 
-    void OnAnimatorMove()
-    {
-        m_Rigidbody.MovePosition(m_Rigidbody.position + m_Movement * m_Animator.deltaPosition.magnitude);
+        m_Rigidbody.MovePosition(m_Rigidbody.position + m_Movement * moveSpeed * Time.deltaTime);
         m_Rigidbody.MoveRotation(m_Rotation);
+            
     }
 }
