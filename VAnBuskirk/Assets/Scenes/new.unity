@@ -256,10 +256,6 @@ MonoBehaviour:
   turnSpeed: 20
   moveSpeed: 2.5
   m_Animator: {fileID: 1878006646}
-  projectilePrefab: {fileID: 7078346297750480364, guid: 7be84d6cf56af4295b39c4e417150683,
-    type: 3}
-  ShotSpawn: {fileID: 870536476}
-  ShotSpeed: 10
 --- !u!4 &20602503 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 803688015477980975, guid: 8149db2c390c7c341b68d304002941c1,
@@ -4980,6 +4976,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2789843046912569522}
     m_Modifications:
+    - target: {fileID: 5244562764500131650, guid: 44b5b89bcee43410a916641ebb90618e,
+        type: 3}
+      propertyPath: m_Name
+      value: PointOfView
+      objectReference: {fileID: 0}
+    - target: {fileID: 5244562764500131650, guid: 44b5b89bcee43410a916641ebb90618e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 836705627315376937, guid: 44b5b89bcee43410a916641ebb90618e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5034,16 +5040,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5244562764500131650, guid: 44b5b89bcee43410a916641ebb90618e,
-        type: 3}
-      propertyPath: m_Name
-      value: PointOfView
-      objectReference: {fileID: 0}
-    - target: {fileID: 5244562764500131650, guid: 44b5b89bcee43410a916641ebb90618e,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 44b5b89bcee43410a916641ebb90618e, type: 3}
@@ -5054,6 +5050,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2789843046326549090}
     m_Modifications:
+    - target: {fileID: 5244562764500131650, guid: 44b5b89bcee43410a916641ebb90618e,
+        type: 3}
+      propertyPath: m_Name
+      value: PointOfView
+      objectReference: {fileID: 0}
+    - target: {fileID: 5244562764500131650, guid: 44b5b89bcee43410a916641ebb90618e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 836705627315376937, guid: 44b5b89bcee43410a916641ebb90618e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5108,16 +5114,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5244562764500131650, guid: 44b5b89bcee43410a916641ebb90618e,
-        type: 3}
-      propertyPath: m_Name
-      value: PointOfView
-      objectReference: {fileID: 0}
-    - target: {fileID: 5244562764500131650, guid: 44b5b89bcee43410a916641ebb90618e,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 44b5b89bcee43410a916641ebb90618e, type: 3}

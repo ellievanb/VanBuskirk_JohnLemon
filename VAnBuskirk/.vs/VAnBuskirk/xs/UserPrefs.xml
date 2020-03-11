@@ -1,14 +1,15 @@
 ﻿<Properties StartupConfiguration="{6E079FBF-BDFA-E449-C07B-48634EBCC571}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayerMovement.cs">
     <Files>
-      <File FileName="Assets/Scripts/PlayerMovement.cs" Line="20" Column="48" />
-      <File FileName="Assets/Scripts/GameEnding.cs" />
+      <File FileName="Assets/Scripts/PlayerMovement.cs" Line="15" Column="1" />
+      <File FileName="Assets/Scripts/GameEnding.cs" Line="30" Column="6" />
       <File FileName="Assets/Scripts/Observer.cs" />
       <File FileName="Assets/Scripts/WaypointPatrol.cs" />
       <File FileName="Assets/Scripts/MouseClick.cs" />
       <File FileName="Assets/Scripts/CollectKeyy.cs" />
-      <File FileName="Assets/Scripts/LightFlicker.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/LightFlicker.cs" />
       <File FileName="Assets/Scripts/Outliner.cs" />
+      <File FileName="Assets/Scripts/MainMenu.cs" Line="10" Column="78" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -26,7 +27,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="6bb7d6e9-47ea-4b2e-9049-4d9f632e1c64" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="bd9804f1-1235-46ab-a75b-05e01114ebc6" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
